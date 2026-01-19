@@ -78,7 +78,7 @@ graph TD
 
 | Login | Home (Check-in) | Historial |
 |:---:|:---:|:---:|
-| ![Login](https://via.placeholder.com/200x400?text=Login+Screen) | ![Home](https://via.placeholder.com/200x400?text=Home+Screen) | ![History](https://via.placeholder.com/200x400?text=History+Screen) |
+| <img src="assets/screenshots/login.png" width="200" /> | <img src="assets/screenshots/home.png" width="200" /> | <img src="assets/screenshots/history.png" width="200" /> |
 
 ---
 
@@ -166,18 +166,18 @@ npx expo start
 
 ## ⚙️ Configuración
 
-### Credenciales por Defecto (Entorno Local)
+### Credenciales de Acceso (Demo)
 
-Para probar la aplicación con el entorno Docker proporcionado, usa los siguientes datos en la pantalla de Login:
+El entorno ha sido pre-configurado con los siguientes datos de acceso:
 
 | Campo | Valor | Notas |
 | :--- | :--- | :--- |
-| **URL del Servidor** | `http://<TU_IP_LOCAL>:8069` | ⚠️ No usar `localhost` ni `127.0.0.1` desde el móvil. Usa la IP de tu PC (ej. `192.168.1.35`). |
-| **Base de Datos** | `odoo` | O el nombre que le diste al crear la DB. |
-| **Email/Usuario** | `admin` | Usuario administrador de Odoo. |
-| **Contraseña** | `admin` | Contraseña que configuraste al crear la DB. |
+| **URL del Servidor** | `http://<TU_IP_LOCAL>:8069` | ⚠️ Usa tu IP local (ej. `192.168.1.XX`) si pruebas desde el móvil. |
+| **Base de Datos** | `odoo_attendance` | Base de datos creada automáticamente. |
+| **Email / Usuario** | `demo@empresa.com` | Usuario empleado demo. |
+| **Contraseña** | `demo123` | Contraseña del usuario demo. |
 
-> **Nota para Desarrolladores**: La contraseña maestra para gestionar bases de datos en este entorno es `admin123`.
+> **Panel de Administración**: Para acceder al backend de Odoo como administrador, usa `admin` / `admin`.
 
 ---
 
