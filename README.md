@@ -74,12 +74,6 @@ graph TD
 
 ---
 
-## 📱 Capturas de Pantalla
-
-| Login | Home (Check-in) | Historial |
-|:---:|:---:|:---:|
-| <img width="1866" height="934" alt="image" src="https://github.com/user-attachments/assets/f2f4ca7a-7daf-4ddd-9161-9a400c8d5f5a" />
- | <img src="assets/screenshots/home.png" width="200" /> | <img src="assets/screenshots/history.png" width="200" /> |
 
 ---
 
